@@ -1,6 +1,26 @@
 .snippet {
-    background-color: bisque;
-    color: black;
-    justify-content: center;
-    align-items: center;
+    margin: 400px;
+    padding: 50px;
+    border: 0.5px outset red;
+    background-color: gray;    
+    text-align: center;
 }
+
+input[name="search"] {
+    height: 40px;
+    width: 500px;
+}
+
+.btn {
+    background-color: skyblue; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
